@@ -13,6 +13,7 @@ class ExtraCardDatabaseSpider(scrapy.Spider):
     custom_settings = {
         'FEED_FORMAT': 'csv',
         'FEED_URI': 'results/extra_database.csv',
+        'FEED_EXPORT_FIELDS' : ['card_name','card_image','card_type','weapon_type','weapon_image','rarity','stat1_hp','stat1_sp','stat1_atk','stat1_def','stat50_hp','stat50_sp','stat50_atk','stat50_def','stat70_hp','stat70_sp','stat70_atk','stat70_def','skill_name','skill_sp','skill_combo','skill_hit','skill_damage','skill_range','skill_effect','skill_comment','skill_preview','charge_name','charge_hit','charge_damage','charge_range','charge_comment','nakayoshi_name','nakayoshi_target_noevol','nakayoshi_effect_noevol','nakayoshi_target_evol','nakayoshi_effect_evol'],
     }
     def start_requests(self):
         url = 'https://wiki.dengekionline.com/'
