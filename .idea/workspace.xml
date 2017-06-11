@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ee72d56-3e6a-4fb1-9ca1-5f4cfd339e05" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/extra_card_database_spider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/extracardlist_spider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/sub_card_database_spider.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/subcardlist_spider.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hoshimori/getcardlist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/_monkeypatches.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/cmdline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/command.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/bench.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/check.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/crawl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/edit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/fetch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/genspider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/parse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/runspider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/shell.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/startproject.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/version.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/commands/view.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/conf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contracts/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contracts/default.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/closespider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/corestats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/ajaxcrawl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/chunked.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/cookies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/decompression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/defaultheaders.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/downloadtimeout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/httpauth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/httpcache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/httpcompression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/httpproxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/redirect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/retry.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/robotstxt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/stats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/useragent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/exporter/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/feedexport.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/httpcache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/linkextractors/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/linkextractors/htmlparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/linkextractors/lxmlhtml.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/linkextractors/regex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/linkextractors/sgml.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/loader/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/loader/common.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/loader/processor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/logstats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/memdebug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/memusage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/pipeline/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/pipeline/files.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/pipeline/images.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/pipeline/media.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/spidermiddleware/depth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/spidermiddleware/httperror.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/spidermiddleware/offsite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/spidermiddleware/referer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/spidermiddleware/urllength.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/spiders/crawl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/spiders/feed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/spiders/init.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/spiders/sitemap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/spiderstate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/statsmailer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib/throttle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib_exp/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib_exp/downloadermiddleware/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib_exp/downloadermiddleware/decompression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/contrib_exp/iterators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/contextfactory.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/handlers/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/handlers/datauri.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/handlers/file.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/handlers/ftp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/handlers/http.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/handlers/http10.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/handlers/http11.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/handlers/s3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/middleware.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/tls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/downloader/webclient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/engine.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/scheduler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/scraper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/core/spidermw.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/crawler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/ajaxcrawl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/chunked.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/cookies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/decompression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/defaultheaders.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/downloadtimeout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/httpauth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/httpcache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/httpcompression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/httpproxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/redirect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/retry.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/robotstxt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/stats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/downloadermiddlewares/useragent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/dupefilter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/dupefilters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/exporters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extension.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/closespider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/corestats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/feedexport.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/httpcache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/logstats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/memdebug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/memusage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/spiderstate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/statsmailer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/telnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/extensions/throttle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/http/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/http/common.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/http/cookies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/http/headers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/http/request/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/http/request/form.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/http/request/rpc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/http/response/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/http/response/html.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/http/response/text.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/http/response/xml.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/interfaces.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/item.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/link.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/linkextractor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/linkextractors/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/linkextractors/htmlparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/linkextractors/lxmlhtml.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/linkextractors/regex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/linkextractors/sgml.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/loader/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/loader/common.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/loader/processors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/log.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/logformatter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/mail.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/middleware.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/mime.types" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/pipelines/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/pipelines/files.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/pipelines/images.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/pipelines/media.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/project.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/resolver.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/responsetypes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/selector/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/selector/csstranslator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/selector/lxmlsel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/selector/unified.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/settings/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/settings/default_settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/settings/deprecated.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/shell.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/signalmanager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/signals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spiderloader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spidermanager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spidermiddlewares/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spidermiddlewares/depth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spidermiddlewares/httperror.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spidermiddlewares/offsite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spidermiddlewares/referer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spidermiddlewares/urllength.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spiders/crawl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spiders/feed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spiders/init.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/spiders/sitemap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/squeue.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/squeues.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/stats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/statscol.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/statscollectors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/telnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/templates/project/module/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/templates/project/module/items.py.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/templates/project/module/middlewares.py.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/templates/project/module/pipelines.py.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/templates/project/module/settings.py.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/templates/project/module/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/templates/project/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/templates/spiders/basic.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/templates/spiders/crawl.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/templates/spiders/csvfeed.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/templates/spiders/xmlfeed.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/benchserver.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/boto.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/conf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/console.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/datatypes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/decorator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/decorators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/defer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/deprecate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/display.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/engine.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/ftp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/gz.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/http.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/httpobj.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/iterators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/job.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/log.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/markup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/misc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/multipart.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/ossignal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/project.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/python.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/reactor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/reqser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/request.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/response.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/serialize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/signal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/sitemap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/template.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/testproc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/testsite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/trackref.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/utils/url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/xlib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/xlib/pydispatch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scrapy/xlib/tx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/card.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/cardlist.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/gay.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/middlewares.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/spiders/card_database_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/spiders/cardlist_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/spiders/quotes_spider.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scrapy/contrib/__init__.py" afterPath="$PROJECT_DIR$/hoshimori/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scrapy/contrib/downloadermiddleware/__init__.py" afterPath="$PROJECT_DIR$/hoshimori/get_database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/hoshimori_scrapy$getcardlist.coverage" NAME="getcardlist Coverage Results" MODIFIED="1497156466751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
+    <SUITE FILE_PATH="coverage/hoshimori_scrapy$normalcardlist_spider.coverage" NAME="normalcardlist_spider Coverage Results" MODIFIED="1497154900754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori/hoshimori/spiders" />
+    <SUITE FILE_PATH="coverage/hoshimori_scrapy$main.coverage" NAME="main Coverage Results" MODIFIED="1497153326724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
+    <SUITE FILE_PATH="coverage/hoshimori_scrapy$get_cardlist.coverage" NAME="get_cardlist Coverage Results" MODIFIED="1497157757237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
+    <SUITE FILE_PATH="coverage/hoshimori_scrapy$get_database.coverage" NAME="get_database Coverage Results" MODIFIED="1497162853990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="hoshimori_scrapy" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="get_database.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hoshimori/get_database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="80" lean-forward="true" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tutorial</find>
+      <find>ITEM_PIPELINES</find>
+      <find>csv_file_path</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>hoshimori</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/pipelines.py" />
+        <option value="$PROJECT_DIR$/hoshimori/scrapy.cfg" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/cardlist_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/main.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/WriteToCsv.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/pipelines/WriteToCsv.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/settings.py" />
+        <option value="$PROJECT_DIR$/hoshimori/getcardlist.py" />
+        <option value="$PROJECT_DIR$/hoshimori/get_database.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/subcardlist_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/normalcardlist_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/extracardlist_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/sub_card_database_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/normal_card_database_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/extra_card_database_spider.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="291" />
+    <option name="y" value="83" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori_scrapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori_scrapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori_scrapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori_scrapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori_scrapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori_scrapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori_scrapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori_scrapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Miniconda2/python.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kokon\PycharmProjects\hoshimori_scrapy\hoshimori\hoshimori\pipelines" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kokon\PycharmProjects\hoshimori_scrapy\hoshimori\hoshimori\spiders" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.get_database">
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hoshimori" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="getcardlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hoshimori" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/getcardlist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="normalcardlist_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hoshimori/hoshimori/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/normalcardlist_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="get_database" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hoshimori" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/get_database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="get_cardlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hoshimori" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/get_cardlist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="hoshimori_scrapy" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.getcardlist" />
+      <item index="2" class="java.lang.String" itemvalue="Python.normalcardlist_spider" />
+      <item index="3" class="java.lang.String" itemvalue="Python.get_database" />
+      <item index="4" class="java.lang.String" itemvalue="Python.get_cardlist" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.get_database" />
+        <item index="1" class="java.lang.String" itemvalue="Python.get_cardlist" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getcardlist" />
+        <item index="3" class="java.lang.String" itemvalue="Python.normalcardlist_spider" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ee72d56-3e6a-4fb1-9ca1-5f4cfd339e05" name="Default" comment="" />
+      <created>1497144518906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497144518906</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="291" y="83" width="1400" height="1000" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871974" sideWeight="0.50298506" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871974" sideWeight="0.49701494" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25373134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/normal_card_database_spider.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hoshimori/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/quotes_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-985393784/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="416" column="13" lean-forward="false" selection-start-line="416" selection-start-column="13" selection-end-line="416" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/cardlist.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/cardlist_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/normalcardlist.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="51" column="93" lean-forward="false" selection-start-line="51" selection-start-column="93" selection-end-line="51" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/database_normal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="66" column="3" lean-forward="true" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/pipelines/WriteToCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/getcardlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/get_cardlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/normalcardlist_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/subcardlist_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/extracardlist_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/extra_card_database_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/normal_card_database_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#47#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/sub_card_database_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="e#47#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/get_database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="80" lean-forward="true" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
