@@ -24,8 +24,7 @@ class ExtraCardDatabaseSpider(scrapy.Spider):
         'ITEM_PIPELINES': {'hoshimori.pipelines.card_csv_pipeline.CardCSVPipeline': 300},
     }
     def start_requests(self):
-        url = 'https://wiki.dengekionline.com/'
-        count = 0
+        url = 'https://wiki.dengekionline.com'
         cardlist = minidom.parse("results/extracardlist.xml")
         urls = cardlist.getElementsByTagName("relative_url")
         for node in urls:
