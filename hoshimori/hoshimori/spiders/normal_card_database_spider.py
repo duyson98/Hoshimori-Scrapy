@@ -71,6 +71,7 @@ class NormalCardDatabaseSpider(scrapy.Spider):
             'skill_range':      skill_table.xpath('tr[4]/td[2]//text()').extract(),
             'skill_effect':     skill_table.xpath('tr[5]/td[2]//text()').extract(),
             'skill_comment':    skill_table.xpath('tr[7]/td//text()').extract(),
+            'skill_preview': response.xpath('//*[@id="rendered-body"]/div[2]/div/div[5]/a/img/@src').extract_first(),
             # Nakayoshi
             'nakayoshi_name':           nakayoshi.xpath('div[1]/table/tbody/tr/td[2]/text()').extract_first(),
             'nakayoshi_target_noevol':  nakayoshi.xpath('div[2]/div[1]/div[1]/table/tbody/tr[1]/td[2]/text()').extract_first(),
