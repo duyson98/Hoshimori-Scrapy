@@ -19,16 +19,14 @@ class StageDatabaseSpider(scrapy.Spider):
         url = 'https://wiki.dengekionline.com'
         stagelist = minidom.parse("stagelist.xml")
         urls = stagelist.getElementsByTagName("relative_url")
-        count = 0
         for node in urls:
-            if count == 3: break
             yield scrapy.Request(url + node.firstChild.data, self.parse)
-            count += 1
 
 
     def parse(self, response):
         data_table = response.xpath("//*[@id='rendered-body']/div[2]/div[1]/div[1]/table/tbody")
-        item_table = response.xpath("//*[@id='rendered-body']/div[2]/div[1]/div[2]/table/tbody")
+        if not data_table:
+            data_table = response.xpath("//*[@id='rendered-body']/div/div[1]/div[1]/table/tbody")
 
         if not data_table:
             yield {
@@ -37,7 +35,13 @@ class StageDatabaseSpider(scrapy.Spider):
                 'items': '',
             }
         else:
+            item_table = response.xpath("//*[@id='rendered-body']/div[2]/div[1]/div[2]/table/tbody")
+            if not item_table:
+                item_table = response.xpath("//*[@id='rendered-body']/div/div[1]/div[2]/table/tbody")
+
             objective_list = response.xpath("//*[@id='rendered-body']/div[2]/div[1]/p[1]//text()").extract()
+            if not objective_list:
+                objective_list = response.xpath("//*[@id='rendered-body']/div/div[1]/p[1]//text()").extract()
 
             yield {
                 #stage
