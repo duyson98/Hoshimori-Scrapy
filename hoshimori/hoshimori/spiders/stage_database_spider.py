@@ -50,21 +50,21 @@ class StageDatabaseSpider(scrapy.Spider):
                 'easy_exp': data_table.xpath("./tr[3]/td[2]/text()").extract_first(),
                 'easy_coins': data_table.xpath("./tr[4]/td[2]/text()").extract_first(),
                 'easy_cheerpoint': data_table.xpath("./tr[5]/td[2]/text()").extract_first(),
-                'easy_objectives': (objective_list[1], objective_list[2], objective_list[3],),
+                'easy_objectives': "%s%s%s" % (objective_list[1], objective_list[2], objective_list[3]),
 
                 # normal
                 'normal_level': data_table.xpath("./tr[2]/td[3]/text()").extract_first(),
                 'normal_exp': data_table.xpath("./tr[3]/td[3]/text()").extract_first(),
                 'normal_coins': data_table.xpath("./tr[4]/td[3]/text()").extract_first(),
                 'normal_cheerpoint': data_table.xpath("./tr[5]/td[3]/text()").extract_first(),
-                'normal_objectives': (objective_list[6], objective_list[7], objective_list[8],),
+                'normal_objectives': "%s%s%s" % (objective_list[6], objective_list[7], objective_list[8]),
 
                 # hard
                 'hard_level': data_table.xpath("./tr[2]/td[4]/text()").extract_first(),
                 'hard_exp': data_table.xpath("./tr[3]/td[4]/text()").extract_first(),
                 'hard_coins': data_table.xpath("./tr[4]/td[4]/text()").extract_first(),
                 'hard_cheerpoint': data_table.xpath("./tr[5]/td[4]/text()").extract_first(),
-                'hard_objectives': (objective_list[11], objective_list[12], objective_list[13],),
+                'hard_objectives': "%s%s%s" % (objective_list[11], objective_list[12], objective_list[13]),
 
                 'drops': item_table.xpath("./tr[2]/td/strong/text()").extract(),
             }
