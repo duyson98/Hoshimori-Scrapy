@@ -5,6 +5,8 @@ Created on May 26, 2017
 
 @author: Koko
 '''
+import os
+
 import scrapy
 
 
@@ -20,6 +22,7 @@ class NormalCardlistSpider(scrapy.Spider):
         'FEED_FORMAT': 'xml',
         'FEED_URI': 'results/normalcardlist.xml',
     }
+    middle_file = ''
 
     @classmethod
     def parse(self, response):
@@ -31,6 +34,6 @@ class NormalCardlistSpider(scrapy.Spider):
                 'type': 'normal',
             }
 
-    def spider_closed(self, spider):
-        spider.logger.info('Spider closed: %s', spider.name)
-
+    @classmethod
+    def closed(self, reason):
+        os.remove(self.middle_file)

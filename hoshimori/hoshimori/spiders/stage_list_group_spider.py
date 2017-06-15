@@ -1,4 +1,7 @@
+import os
+
 import scrapy
+
 
 class StageGroupListSpider(scrapy.Spider):
     name = "stagegrouplist"
@@ -12,6 +15,7 @@ class StageGroupListSpider(scrapy.Spider):
     start_urls = (
         'https://wiki.dengekionline.com/battlegirl/%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88',
     )
+    middle_file = ''
 
     @classmethod
     def parse(self, response):
@@ -25,6 +29,5 @@ class StageGroupListSpider(scrapy.Spider):
             count += 1
             if count == 24: break
 
-
-    def spider_closed(self, spider):
-        spider.logger.info('Spider closed: %s', spider.name)
+    def closed(self, reason):
+        os.remove(self.middle_file)

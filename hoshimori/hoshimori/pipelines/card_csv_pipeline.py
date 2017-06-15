@@ -2,6 +2,7 @@
 
 import re
 
+
 class CardCSVPipeline(object):
     @classmethod
     def process_item(self, item, spider):

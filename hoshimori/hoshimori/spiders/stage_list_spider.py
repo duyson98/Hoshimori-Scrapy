@@ -1,5 +1,7 @@
-import scrapy
+import os
 from xml.dom import minidom
+
+import scrapy
 
 
 class StageListSpider(scrapy.Spider):
@@ -8,15 +10,18 @@ class StageListSpider(scrapy.Spider):
     custom_settings = {
         'FEED_FORMAT': 'xml',
         'FEED_URI': 'results/stagelist.xml',
-        'CONCURRENT_REQUESTS': 1,
     }
+    middle_file = 'results/stagegrouplist.xml'
+
+    @classmethod
     def start_requests(self):
         url = 'https://wiki.dengekionline.com'
-        grouplist = minidom.parse("stagegrouplist.xml")
+        grouplist = minidom.parse(self.middle_file)
         urls = grouplist.getElementsByTagName("relative_url")
         for node in urls:
             yield scrapy.Request(url + node.firstChild.data, self.parse)
 
+    @classmethod
     def parse(self, response):
         table = response.xpath("//*[@id='rendered-body']/div[2]/div/table/tbody/tr/td[2]")
 
@@ -27,6 +32,6 @@ class StageListSpider(scrapy.Spider):
                     'relative_url': stage_url.extract_first()
                 }
 
-
-        def spider_closed(self, spider):
-            spider.logger.info('Spider closed: %s', spider.name)
+    @classmethod
+    def closed(self, reason):
+        os.remove(self.middle_file)
