@@ -57,14 +57,14 @@ class StageDatabaseSpider(scrapy.Spider):
                 'normal_exp': data_table.xpath("./tr[3]/td[3]/text()").extract_first(),
                 'normal_coins': data_table.xpath("./tr[4]/td[3]/text()").extract_first(),
                 'normal_cheerpoint': data_table.xpath("./tr[5]/td[3]/text()").extract_first(),
-                'normal_objectives': (objective_list[5], objective_list[6], objective_list[7],),
+                'normal_objectives': (objective_list[6], objective_list[7], objective_list[8],),
 
                 # hard
                 'hard_level': data_table.xpath("./tr[2]/td[4]/text()").extract_first(),
                 'hard_exp': data_table.xpath("./tr[3]/td[4]/text()").extract_first(),
                 'hard_coins': data_table.xpath("./tr[4]/td[4]/text()").extract_first(),
                 'hard_cheerpoint': data_table.xpath("./tr[5]/td[4]/text()").extract_first(),
-                'hard_objectives': (objective_list[9], objective_list[10], objective_list[11],),
+                'hard_objectives': (objective_list[11], objective_list[12], objective_list[13],),
 
                 'drops': item_table.xpath("./tr[2]/td/strong/text()").extract(),
             }
