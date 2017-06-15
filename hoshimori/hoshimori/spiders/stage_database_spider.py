@@ -7,17 +7,17 @@ class StageDatabaseSpider(scrapy.Spider):
     allowed_domains = ["wiki.dengekionline.com"]
     custom_settings = {
         'FEED_FORMAT': 'csv',
-        'FEED_URI': 'stage_database.csv',
-        'FEED_EXPORT_FIELDS': ['stage_type', 'stage_name', 'easy_dangerLv', 'easy_expPt', 'easy_coins', 'easy_bondPt', 'easy_objectives',
-                               'normal_dangerLv', 'normal_expPt', 'normal_coins', 'normal_bondPt', 'normal_objectives',
-                               'hard_dangerLv', 'hard_expPt', 'hard_coins', 'hard_bondPt', 'hard_objectives', 'items',
+        'FEED_URI': 'results/stage_database.csv',
+        'FEED_EXPORT_FIELDS': ['stage_type', 'stage_name', 'easy_level', 'easy_exp', 'easy_coins', 'easy_cheerpoint', 'easy_objectives',
+                               'normal_level', 'normal_exp', 'normal_coins', 'normal_cheerpoint', 'normal_objectives',
+                               'hard_level', 'hard_exp', 'hard_coins', 'hard_cheerpoint', 'hard_objectives', 'drops',
         ],
         'ITEM_PIPELINES': {'hoshimori.pipelines.stage_csv_pipeline.StageCSVPipeline': 300},
-        'CONCURRENT_REQUESTS': 1,
     }
+    
     def start_requests(self):
         url = 'https://wiki.dengekionline.com'
-        stagelist = minidom.parse("stagelist.xml")
+        stagelist = minidom.parse("results/stagelist.xml")
         urls = stagelist.getElementsByTagName("relative_url")
         for node in urls:
             yield scrapy.Request(url + node.firstChild.data, self.parse)
