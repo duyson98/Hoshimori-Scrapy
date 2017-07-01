@@ -14,7 +14,7 @@ class SubCardDatabaseSpider(scrapy.Spider):
     allowed_domains = ["wiki.dengekionline.com"]
     custom_settings = {
         'FEED_FORMAT': 'csv',
-        'FEED_URI': 'results/sub_database.csv',
+        'FEED_URI': 'results/card_database.csv',
         'FEED_EXPORT_FIELDS': ['card_type', 'character', 'event', 'card_name', 'card_image', 'weapon_type',
                                'weapon_image', 'rarity', 'stat1_hp', 'stat1_sp', 'stat1_atk', 'stat1_def', 'stat50_hp',
                                'stat50_sp', 'stat50_atk', 'stat50_def', 'stat70_hp', 'stat70_sp', 'stat70_atk',
@@ -23,6 +23,7 @@ class SubCardDatabaseSpider(scrapy.Spider):
                                'charge_hit', 'charge_damage', 'charge_range', 'charge_comment', 'nakayoshi_name',
                                'nakayoshi_target_noevol', 'nakayoshi_effect_noevol', 'nakayoshi_target_evol',
                                'nakayoshi_effect_evol'],
+        'FEED_EXPORTERS': {'csv': 'hoshimori.exporters.HeadlessCsvItemExporter', },
         'ITEM_PIPELINES': {'hoshimori.pipelines.card_csv_pipeline.CardCSVPipeline': 300},
     }
     middle_file = 'results/subcardlist.xml'
