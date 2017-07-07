@@ -5,7 +5,6 @@ Created on May 26, 2017
 
 @author: Koko
 '''
-import os
 
 import scrapy
 
@@ -21,13 +20,11 @@ class ZhCardlistSpider(scrapy.Spider):
     custom_settings = {
         'FEED_FORMAT': 'csv',
         'FEED_URI': 'results/zhcardlist.csv',
-        'FEED_EXPORT_FIELDS': ['id','card_name','relative_url','icon_0','icon_1'],
+        'FEED_EXPORT_FIELDS': ['id', 'card_name', 'relative_url', 'image', 'special_icon'],
     }
-    middle_file = ''
 
     @classmethod
     def parse(self, response):
-
         for row in response.xpath("//tr")[2:]:
             # Initialize dictionary
             result = {}
@@ -37,18 +34,13 @@ class ZhCardlistSpider(scrapy.Spider):
             result['relative_url'] = row.xpath('td[3]/a/@href').extract_first()
 
             # Get icons
-            icons = row.xpath('td[2]//a/img/@data-src').extract()
-            if len(icons) == 0:
-                result['icon_0'] = get_raw_image(row.xpath('td[2]//a/img/@src').extract_first())
-            else:
-                count = 0
-                for icon in icons:
-                    result['icon_{}'.format(count)] = get_raw_image(icon)
-                    count += 1
+            icons = row.css('td:nth-child(2)').xpath('.//@src').extract()
+            for icon in icons:
+                if icon.startswith('d'): # Or 'data'
+                    icons.remove(icon)
 
+            result['image'] = get_raw_image(icons[0])
+            if icons.__len__() == 2:
+                result['special_icon'] = get_raw_image(icons[1])
 
             yield result
-
-    @classmethod
-    def closed(self, reason):
-        os.remove(self.middle_file)

@@ -23,7 +23,6 @@ class NormalCardDatabaseSpider(scrapy.Spider):
                                'charge_hit', 'charge_damage', 'charge_range', 'charge_comment', 'nakayoshi_name',
                                'nakayoshi_target_noevol', 'nakayoshi_effect_noevol', 'nakayoshi_target_evol',
                                'nakayoshi_effect_evol'],
-        'FEED_EXPORTERS': {'csv': 'hoshimori.exporters.HeadlessCsvItemExporter', },
         'ITEM_PIPELINES': {'hoshimori.pipelines.card_csv_pipeline.CardCSVPipeline': 300},
     }
     middle_file = 'results/normalcardlist.xml'

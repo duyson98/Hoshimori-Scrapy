@@ -21,7 +21,6 @@ class SubCardlistSpider(scrapy.Spider):
         'FEED_FORMAT': 'xml',
         'FEED_URI': 'results/subcardlist.xml',
     }
-    middle_file = ''
 
     @classmethod
     def parse(self, response):
@@ -32,7 +31,3 @@ class SubCardlistSpider(scrapy.Spider):
                 'relative_url': card.css("a::attr(href)").extract_first(),
                 'type': 'sub',
             }
-
-    @classmethod
-    def closed(self, reason):
-        os.remove(self.middle_file)

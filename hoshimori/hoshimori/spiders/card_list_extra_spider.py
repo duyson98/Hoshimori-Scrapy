@@ -21,7 +21,6 @@ class ExtraCardlistSpider(scrapy.Spider):
         'FEED_FORMAT': 'xml',
         'FEED_URI': 'results/extracardlist.xml',
     }
-    middle_file = ''
 
     @classmethod
     def parse(self, response):
@@ -33,6 +32,3 @@ class ExtraCardlistSpider(scrapy.Spider):
                 'type': 'extra',
             }
 
-    @classmethod
-    def closed(self, reason):
-        os.remove(self.middle_file)

@@ -22,7 +22,6 @@ class NormalCardlistSpider(scrapy.Spider):
         'FEED_FORMAT': 'xml',
         'FEED_URI': 'results/normalcardlist.xml',
     }
-    middle_file = ''
 
     @classmethod
     def parse(self, response):
@@ -33,7 +32,3 @@ class NormalCardlistSpider(scrapy.Spider):
                 'relative_url': card.css("a::attr(href)").extract_first(),
                 'type': 'normal',
             }
-
-    @classmethod
-    def closed(self, reason):
-        os.remove(self.middle_file)

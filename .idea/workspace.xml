@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ee72d56-3e6a-4fb1-9ca1-5f4cfd339e05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/exporters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_zh_spider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_zh_spider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/character_data_spider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hoshimori/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hoshimori/get_database_zh.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/hoshimori/get_database.py" afterPath="$PROJECT_DIR$/hoshimori/get_database_dengeki.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/hoshimori/hoshimori/exporters.py" afterPath="$PROJECT_DIR$/hoshimori/exporters.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_extra_spider.py" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_extra_spider.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_normal_spider.py" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_normal_spider.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_sub_spider.py" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_sub_spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_zh_spider.py" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_zh_spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_extra_spider.py" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_extra_spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_normal_spider.py" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_normal_spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_sub_spider.py" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_sub_spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_zh_spider.py" afterPath="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_zh_spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoshimori/main.py" afterPath="$PROJECT_DIR$/hoshimori/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoshimori/scrapy.cfg" afterPath="$PROJECT_DIR$/hoshimori/scrapy.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoshimori/utils.py" afterPath="$PROJECT_DIR$/hoshimori/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,10 +28,12 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/hoshimori_scrapy$getcardlist.coverage" NAME="getcardlist Coverage Results" MODIFIED="1497156466751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
     <SUITE FILE_PATH="coverage/hoshimori_scrapy$normalcardlist_spider.coverage" NAME="normalcardlist_spider Coverage Results" MODIFIED="1497154900754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori/hoshimori/spiders" />
-    <SUITE FILE_PATH="coverage/hoshimori_scrapy$main.coverage" NAME="main Coverage Results" MODIFIED="1497153326724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
+    <SUITE FILE_PATH="coverage/hoshimori_scrapy$get_database_dengeki.coverage" NAME="get_database_dengeki Coverage Results" MODIFIED="1499451530229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
+    <SUITE FILE_PATH="coverage/hoshimori_scrapy$main.coverage" NAME="main Coverage Results" MODIFIED="1499449873493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
     <SUITE FILE_PATH="coverage/hoshimori_scrapy$get_stagedatabase.coverage" NAME="get_stagedatabase Coverage Results" MODIFIED="1497497225542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
     <SUITE FILE_PATH="coverage/hoshimori_scrapy$get_cardlist.coverage" NAME="get_cardlist Coverage Results" MODIFIED="1497265867244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
-    <SUITE FILE_PATH="coverage/hoshimori_scrapy$get_database.coverage" NAME="get_database Coverage Results" MODIFIED="1498211429090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
+    <SUITE FILE_PATH="coverage/hoshimori_scrapy$get_database.coverage" NAME="get_database Coverage Results" MODIFIED="1499451443159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
+    <SUITE FILE_PATH="coverage/hoshimori_scrapy$get_database_zh.coverage" NAME="get_database_zh Coverage Results" MODIFIED="1499462736265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori" />
     <SUITE FILE_PATH="coverage/hoshimori_scrapy$stage_database_spider.coverage" NAME="stage_database_spider Coverage Results" MODIFIED="1497497169674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoshimori/hoshimori/spiders" />
   </component>
   <component name="DatabaseView">
@@ -42,32 +50,7 @@
     <favorites_list name="hoshimori_scrapy" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="card_list_zh_spider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_zh_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="46" column="30" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="46" selection-end-column="30" />
-              <folding>
-                <element signature="e#72#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="card_database_zh_spider.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_zh_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="e#47#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,6 +70,18 @@
       <find>items</find>
       <find>%s\n%s\n%s</find>
       <find>125660539695</find>
+      <find>get_raw_image</find>
+      <find>card_tye</find>
+      <find>card_type</find>
+      <find>card_name</find>
+      <find>obtain</find>
+      <find>image</find>
+      <find>art</find>
+      <find>evolved_nakayoshi_skill_target</find>
+      <find>false</find>
+      <find>subcard</find>
+      <find>%E3%80%90%E3%82%B5%E3%83%96%E3%82%AB%E5%B0%82%E7%94%A8%E3%80%91Chuuuuu%E2%99%A1Lip</find>
+      <find>ff1a</find>
     </findStrings>
     <replaceStrings>
       <replace>hoshimori</replace>
@@ -100,13 +95,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/pipelines.py" />
-        <option value="$PROJECT_DIR$/hoshimori/scrapy.cfg" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/cardlist_spider.py" />
-        <option value="$PROJECT_DIR$/hoshimori/main.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_spider.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/WriteToCsv.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/pipelines/WriteToCsv.py" />
-        <option value="$PROJECT_DIR$/hoshimori/hoshimori/settings.py" />
         <option value="$PROJECT_DIR$/hoshimori/getcardlist.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/pipelines/csv_pipeline.py" />
         <option value="$PROJECT_DIR$/hoshimori/get_cardlist.py" />
@@ -122,18 +114,27 @@
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/normal_card_database_spider.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/stage_list_spider.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/pipelines/stage_csv_pipeline.py" />
-        <option value="$PROJECT_DIR$/hoshimori/get_database.py" />
         <option value="$PROJECT_DIR$/hoshimori/get_stagedatabase.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/character_data_spider.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/stage_database_spider.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/exporters" />
-        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_extra_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/main.py" />
+        <option value="$PROJECT_DIR$/hoshimori/scrapy.cfg" />
+        <option value="$PROJECT_DIR$/hoshimori/results/card_database.csv" />
+        <option value="$PROJECT_DIR$/hoshimori/exporters.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/settings.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_normal_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_extra_spider.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_sub_spider.py" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_extra_spider.py" />
-        <option value="$PROJECT_DIR$/hoshimori/utils.py" />
-        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_zh_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_normal_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_sub_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/get_database.py" />
         <option value="$PROJECT_DIR$/hoshimori/results/zhcardlist.csv" />
+        <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_zh_spider.py" />
+        <option value="$PROJECT_DIR$/hoshimori/get_database_zh.py" />
+        <option value="$PROJECT_DIR$/hoshimori/utils.py" />
+        <option value="$PROJECT_DIR$/hoshimori/results/zh_database.csv" />
         <option value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_zh_spider.py" />
       </list>
     </option>
@@ -147,8 +148,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1092" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -168,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,9 +254,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori_scrapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori_scrapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoshimori" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pipelines" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -332,12 +355,15 @@
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kokon\PycharmProjects\hoshimori_scrapy\hoshimori\hoshimori\pipelines" />
-      <recent name="C:\Users\kokon\PycharmProjects\hoshimori_scrapy\hoshimori\hoshimori" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kokon\PycharmProjects\hoshimori_scrapy\hoshimori" />
       <recent name="C:\Users\kokon\PycharmProjects\hoshimori_scrapy\hoshimori\hoshimori\spiders" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kokon\PycharmProjects\hoshimori_scrapy\hoshimori\hoshimori\exporters" />
+      <recent name="C:\Users\kokon\PycharmProjects\hoshimori_scrapy\hoshimori" />
+      <recent name="C:\Users\kokon\PycharmProjects\hoshimori_scrapy\hoshimori\hoshimori" />
+      <recent name="C:\Users\kokon\PycharmProjects\hoshimori_scrapy\hoshimori\hoshimori\pipelines" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,26 +378,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_database">
-    <configuration default="false" name="getcardlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hoshimori" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="hoshimori_scrapy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/getcardlist.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.get_database_zh">
     <configuration default="false" name="get_database" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,26 +392,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="hoshimori_scrapy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/get_database.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="get_cardlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hoshimori" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="hoshimori_scrapy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/get_cardlist.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\kokon\PycharmProjects\hoshimori_scrapy\hoshimori\get_database_dengeki.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -429,20 +417,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="stage_database_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hoshimori/hoshimori/spiders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hoshimori" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="hoshimori_scrapy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/hoshimori/spiders/stage_database_spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="get_database_dengeki" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hoshimori" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/get_database_dengeki.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="get_database_zh" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hoshimori" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hoshimori_scrapy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hoshimori/get_database_zh.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -613,19 +639,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.getcardlist" />
-      <item index="1" class="java.lang.String" itemvalue="Python.get_database" />
-      <item index="2" class="java.lang.String" itemvalue="Python.get_cardlist" />
-      <item index="3" class="java.lang.String" itemvalue="Python.get_stagedatabase" />
-      <item index="4" class="java.lang.String" itemvalue="Python.stage_database_spider" />
+      <item index="0" class="java.lang.String" itemvalue="Python.get_database" />
+      <item index="1" class="java.lang.String" itemvalue="Python.get_stagedatabase" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.get_database_dengeki" />
+      <item index="4" class="java.lang.String" itemvalue="Python.get_database_zh" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.get_database" />
-        <item index="1" class="java.lang.String" itemvalue="Python.get_stagedatabase" />
-        <item index="2" class="java.lang.String" itemvalue="Python.stage_database_spider" />
-        <item index="3" class="java.lang.String" itemvalue="Python.get_cardlist" />
-        <item index="4" class="java.lang.String" itemvalue="Python.getcardlist" />
+        <item index="0" class="java.lang.String" itemvalue="Python.get_database_zh" />
+        <item index="1" class="java.lang.String" itemvalue="Python.get_database_dengeki" />
+        <item index="2" class="java.lang.String" itemvalue="Python.get_database" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main" />
+        <item index="4" class="java.lang.String" itemvalue="Python.get_stagedatabase" />
       </list>
     </recent_temporary>
   </component>
@@ -710,7 +736,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497497343534</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add spider to crawl from zh.battlegirl. Gotta finish off this shit once and for all.">
+      <created>1498923378256</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1498923378256</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -723,17 +756,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25160256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2595949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.50298506" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2938733" sideWeight="0.4910448" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2544317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32606438" sideWeight="0.50895524" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29283488" sideWeight="0.4910448" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25337487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502595" sideWeight="0.50895524" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35453597" sideWeight="0.4910448" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35410178" sideWeight="0.4910448" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -791,7 +824,8 @@
     <MESSAGE value="Fix shit codes, rename files for better uniformity, improve performance, add batch script" />
     <MESSAGE value="Fix shit codes" />
     <MESSAGE value="Fix more shit codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix more shit codes" />
+    <MESSAGE value="Add spider to crawl from zh.battlegirl. Gotta finish off this shit once and for all." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add spider to crawl from zh.battlegirl. Gotta finish off this shit once and for all." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -800,20 +834,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/pipelines/card_csv_pipeline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_extra_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="19" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -862,13 +882,6 @@
     <entry file="file://$PROJECT_DIR$/hoshimori/normalcardlist.xml" />
     <entry file="file://$PROJECT_DIR$/hoshimori/database_normal.xml" />
     <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/pipelines/WriteToCsv.py" />
-    <entry file="file://$PROJECT_DIR$/hoshimori/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/getcardlist.py" />
     <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_spider.py" />
     <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/pipelines/__init__.py">
@@ -888,32 +901,10 @@
     <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/test_spider.py" />
     <entry file="file://$PROJECT_DIR$/hoshimori/get_cardlist.py" />
     <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/quotes_spider.py" />
-    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_sub_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="90" column="14" lean-forward="false" selection-start-line="90" selection-start-column="14" selection-end-line="90" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -939,20 +930,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/.~lock.characters.csv#" />
-    <entry file="file://$PROJECT_DIR$/hoshimori/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_normal_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/character_data_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -974,24 +951,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_extra_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/stage_database_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-74">
           <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoshimori/get_database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1002,21 +965,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/exporters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/results/extracardlist.xml" />
-    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_extra_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="29" column="51" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/stage_list_group_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1025,58 +974,161 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/results/zhcardlist.xml" />
-    <entry file="file://$PROJECT_DIR$/hoshimori/utils.py">
+    <entry file="file://$PROJECT_DIR$/hoshimori/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/exporters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_extra_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_normal_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_sub_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_sub_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="107" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="107" />
+        <state relative-caret-position="374">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/get_database_dengeki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/results/card_database.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="3575" column="24" lean-forward="true" selection-start-line="3575" selection-start-column="24" selection-end-line="3575" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_normal_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="15" />
+        <state relative-caret-position="306">
+          <caret line="24" column="54" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="24" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_zh_spider.py">
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_extra_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="46" selection-end-column="30" />
-          <folding>
-            <element signature="e#72#81#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/results/zhcardlist.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="179" lean-forward="true" selection-start-line="0" selection-start-column="179" selection-end-line="0" selection-end-column="179" />
+        <state relative-caret-position="276">
+          <caret line="546" column="50" lean-forward="true" selection-start-line="546" selection-start-column="50" selection-end-line="546" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/results/zh_database.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="90" lean-forward="false" selection-start-line="3" selection-start-column="90" selection-end-line="3" selection-end-column="90" />
+        <state relative-caret-position="208">
+          <caret line="109" column="736" lean-forward="true" selection-start-line="109" selection-start-column="736" selection-end-line="109" selection-end-column="736" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_database_zh_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
-            <element signature="e#47#57#0" expanded="true" />
+            <element signature="e#62#72#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/get_database_zh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/hoshimori/spiders/card_list_zh_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#73#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoshimori/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
