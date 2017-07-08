@@ -21,10 +21,10 @@ class ZhCardDatabaseSpider(scrapy.Spider):
                                'special_icon', 'art', 'special_front', 'front_top', 'front_bottom', 'front_name',
                                'front_rarity', 'front_weapon', 'subcard_effect', 'hp_1', 'sp_1', 'atk_1', 'def_1',
                                'hp_50', 'sp_50', 'atk_50', 'def_50', 'hp_70', 'atk_70', 'def_70', 'sp_70',
-                               'japanese_skill_name', 'skill_SP', 'skill_range', 'action_skill_effects',
-                               'action_skill_combo', 'action_skill_damage', 'evolved_action_skill_combo',
-                               'evolved_action_skill_damage', 'japanese_nakayoshi_title', 'nakayoshi_skill_effect',
-                               'nakayoshi_skill_target', 'evolved_nakayoshi_skill_effect',
+                               'japanese_skill_name', 'skill_SP', 'skill_range', 'skill_affinity',
+                               'action_skill_effects', 'action_skill_combo', 'action_skill_damage',
+                               'evolved_action_skill_combo', 'evolved_action_skill_damage', 'japanese_nakayoshi_title',
+                               'nakayoshi_skill_effect', 'nakayoshi_skill_target', 'evolved_nakayoshi_skill_effect',
                                'evolved_nakayoshi_skill_target', ],
     }
     middle_file = 'results/zhcardlist.csv'
@@ -111,7 +111,11 @@ class ZhCardDatabaseSpider(scrapy.Spider):
             result['japanese_skill_name'] = action_skill_table.css(
                 'tr:nth-child(1) > td:nth-child(3) > b ::text').extract_first()
             result['skill_SP'] = action_skill_table.css('tr:nth-child(2) > td ::text').extract_first()
-            result['skill_range'] = action_skill_table.css('tr:nth-child(4) > td ::text').extract_first()
+            result['skill_range'] = '\n'.join(action_skill_table.css('tr:nth-child(4) > td ::text').extract())
+
+            skill_hits = action_skill_table.css('tr:nth-child(3) > td ::text').extract_first()
+            if skill_hits.split(u'\uFF0F').__len__() == 2:
+                result['skill_affinity'] = skill_hits.split(u'\uFF0F')[-1]
 
             skill_combo = action_skill_table.css('tr:nth-child(1) > td:nth-child(5) ::text').extract()
             # Change in skill combo after evolution
@@ -121,13 +125,14 @@ class ZhCardDatabaseSpider(scrapy.Spider):
             else:
                 result['action_skill_combo'] = result['evolved_action_skill_combo'] = skill_combo[0]
 
-            result['action_skill_damage'] = action_skill_table.css('tr:nth-child(5) > td ::text').extract_first()
+            result['action_skill_damage'] = '\n'.join(
+                action_skill_table.css('tr:nth-child(5) > td ::text').extract())
             if action_skill_table.css('tr:nth-child(6) > td ::text').extract_first() != u'\uff0d':
-                result['evolved_action_skill_damage'] = action_skill_table.css(
-                    'tr:nth-child(6) > td ::text').extract_first()
+                result['evolved_action_skill_damage'] = '\n'.join(
+                    action_skill_table.css('tr:nth-child(6) > td ::text').extract())
 
-            result['action_skill_effects'] = action_skill_table.css('tr:nth-child(3) > td').xpath(
-                'hr/following-sibling::text()').extract()
+            result['action_skill_effects'] = '\n'.join(action_skill_table.css('tr:nth-child(3) > td').xpath(
+                'hr/following-sibling::text()').extract())
 
         # Nakayoshi
         try:
