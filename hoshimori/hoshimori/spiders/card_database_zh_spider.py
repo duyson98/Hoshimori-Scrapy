@@ -20,7 +20,7 @@ class ZhCardDatabaseSpider(scrapy.Spider):
         'FEED_EXPORT_FIELDS': ['id', 'japanese_name', 'character', 'i_rarity', 'i_weapon', 'obtain_method', 'image',
                                'special_icon', 'art', 'special_front', 'front_top', 'front_bottom', 'front_name',
                                'front_rarity', 'front_weapon', 'subcard_effect', 'hp_1', 'sp_1', 'atk_1', 'def_1',
-                               'hp_50', 'sp_50', 'atk_50', 'def_50', 'hp_70', 'atk_70', 'def_70', 'sp_70',
+                               'hp_50', 'sp_50', 'atk_50', 'def_50', 'hp_70', 'sp_70', 'atk_70', 'def_70',
                                'japanese_skill_name', 'skill_SP', 'skill_range', 'skill_affinity',
                                'action_skill_effects', 'action_skill_combo', 'action_skill_damage',
                                'evolved_action_skill_combo', 'evolved_action_skill_damage', 'japanese_nakayoshi_title',
