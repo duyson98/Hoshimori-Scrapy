@@ -26,3 +26,6 @@ def crawl():
 
 crawl()
 reactor.run()  # the script will block here until the last crawl call is finished
+
+
+

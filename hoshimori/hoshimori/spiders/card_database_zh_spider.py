@@ -146,8 +146,8 @@ class ZhCardDatabaseSpider(scrapy.Spider):
                 result['nakayoshi_skill_effect'] = unevolved_nakayoshi[1]
                 evolved_nakayoshi = nakayoshi_table.css('tr:nth-child(3) > td ::text').extract_first().split(u'\uFF0F')
                 if evolved_nakayoshi[0] != u'\uff0d':
-                    result['evolved_nakayoshi_skill_effect'] = evolved_nakayoshi[0]
-                    result['evolved_nakayoshi_skill_target'] = evolved_nakayoshi[1]
+                    result['evolved_nakayoshi_skill_target'] = evolved_nakayoshi[0]
+                    result['evolved_nakayoshi_skill_effect'] = evolved_nakayoshi[1]
         except IndexError as err:
             print err.args
             pass
