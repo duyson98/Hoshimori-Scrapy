@@ -1,12 +1,35 @@
-# ScrapyTutorial
-Put spiders in \hoshimori\hoshimori\spiders
+# Hoshimori Project
 
-Crawl by executing "scrapy crawl '%spider's name%'" in \hoshimori
+This is a database processor for the main [project](https://github.com/kokonguyen191/Hoshimori-Project)
 
-Output to file by executing "scrapy crawl '%spider's name%' -o '%filename%'" in \hoshimori
+## How to use?
 
-Run get_cardlist.py to get 3 lists, respectively of normal cards, extra cards, and subcards.
+### Prerequisites
 
-Run get_database.py after running get_cardlist.py to get all carddata in 3 files, respectively of normal cards, extra cards, and subcards. Needs rechecking as not all cards have the same format, which may lead to missing or wrong data / datafield.
+```
+scrapy 1.4: https://doc.scrapy.org/en/latest/index.html
+```
 
-Main is used for running scrapy directly from inside IDE instead of using terminal / CMD.
+### Quick start
+
+1. Delete all **.csv** files in *hoshimori/results/* first
+
+2. There are three *get_XX.py* files in *hoshimori/*. Just run any of them to get the related database.
+    - **get_database_dengeki.py**: Crawl card info in Japanese from [dengekionline](https://wiki.dengekionline.com/battlegirl/)
+    - **get_database_zh.py**: Crawl card info in Chinese from [zh.battlegirl](https://zh.battlegirl.wikia.com/)
+    - **get_stagedatabase.py**: Crawl stage info in Japanese from [dengekionline](https://wiki.dengekionline.com/battlegirl/)
+  
+3. Results are exported as **.csv** in *hoshimori/results/*
+
+### Adding new spiders
+
+Just add them to *hoshimori/hoshimori/spiders*
+
+## Authors
+
+* **[Koko191](https://github.com/kokonguyen191)** -  Main dev
+* **[duyson98](https://github.com/duyson98)** - Minor collaborator
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
