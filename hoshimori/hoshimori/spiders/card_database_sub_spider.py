@@ -77,7 +77,7 @@ class SubCardDatabaseSpider(scrapy.Spider):
             'skill_range': skill_table.xpath('tr[4]/td[2]//text()').extract(),
             'skill_effect': skill_table.xpath('tr[5]/td[2]//text()').extract(),
             'skill_comment': skill_table.xpath('tr[7]/td//text()').extract(),
-            'skill_preview': response.xpath('//*[@id="rendered-body"]/div[2]/div/div[5]/a/img/@src').extract_first(),
+            'skill_preview': response.xpath('//*[@id="rendered-body"]/div[2]/div/div[4]/a/img/@src').extract_first(),
         }
 
     @classmethod
