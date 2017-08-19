@@ -8,10 +8,11 @@ class StageListSpider(scrapy.Spider):
     name = "stagelist"
     allowed_domains = ["wiki.dengekionline.com"]
     custom_settings = {
-        'FEED_FORMAT': 'xml',
-        'FEED_URI': 'results/stagelist.xml',
+        'FEED_FORMAT': 'csv',
+        'FEED_URI': 'results/stagelist.csv',
+        'FEED_EXPORT_FIELDS': ['story_part', 'story_chapter', 'relative_url'],
     }
-    middle_file = 'results/stagegrouplist.xml'
+    middle_file = 'stagegrouplist.xml'
 
     @classmethod
     def start_requests(self):
@@ -29,7 +30,9 @@ class StageListSpider(scrapy.Spider):
             stage_url = stage.css("a::attr(href)")
             if stage_url:
                 yield {
-                    'relative_url': stage_url.extract_first()
+                    'story_part': response.xpath("//*[@id='page-main-title']/text()").extract_first().split('/')[1].split(' ')[0],
+                    'story_chapter': response.xpath("//*[@id='page-main-title']/text()").extract_first().split('/')[1].split(' ')[1],
+                    'relative_url': stage_url.extract_first(),
                 }
 
     @classmethod
